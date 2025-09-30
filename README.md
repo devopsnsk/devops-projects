@@ -1,2 +1,5 @@
-# devops-projects
-Hands-on DevOps projects with CI/CD, Cloud, Docker, Kubernetes, Terraform and AWS automation.
+## 📅 Day 1 Proof
+- Created repo and pushed first proof file.  
+
+![Day1 Screenshot](day1/day1-screenshot.png)
+
