@@ -1,2 +1,7 @@
-Initial config file
+<<<<<<< HEAD
 Main branch update
+=======
+Feature branch update
+>>>>>>> 92cfa8b...
+Main branch update
+Feature branch update
