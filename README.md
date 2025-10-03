@@ -27,5 +27,18 @@
   - Ran `hello-world` container
   - Pulled and ran `nginx` container → verified at `http://localhost:8080`
 - Added **day5-proof.txt**  
-- Uploaded screenshots of Docker and Git conflict resolution  
+- Uploaded screenshots of Docker and Git conflict resolution
+- # Day 6 - Docker Cowsay Practice
+## Description
+This project contains a Dockerfile to run `cowsay` in a container.
+
+## Dockerfile
+- Base image: Ubuntu 20.04
+- Installed cowsay
+- CMD uses `/usr/games/cowsay` for proper execution
+
+## How to Run
+```bash
+docker build -t sai-docker-demo .
+docker run sai-docker-demo /usr/games/cowsay "Docker Day 6 Success!"
 
