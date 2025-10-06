@@ -37,17 +37,5 @@ This project contains a Dockerfile to run `cowsay` in a container.
 - Installed cowsay
 - CMD uses `/usr/games/cowsay` for proper execution
 
-## How to Run
-```bash
-docker build -t sai-docker-demo .
-docker run sai-docker-demo /usr/games/cowsay "Docker Day 6 Success!"
-
-
-
-
-
----
-
-## **Docker Compose Practice**
 
 
