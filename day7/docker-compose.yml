@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx
+    ports:
+      - "8081:80"
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+
+  redis:
+    image: redis
