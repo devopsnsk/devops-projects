@@ -43,21 +43,8 @@ docker build -t sai-docker-demo .
 docker run sai-docker-demo /usr/games/cowsay "Docker Day 6 Success!"
 
 
-# **Day7: Docker Compose & Git Branch Practice**
 
-## **Description**
-On **Day 7**, I practiced **Docker Compose**, a tool to define and manage multi-container Docker applications. The project includes:
 
-1. **Web (NGINX)** – Serves a simple HTML page.
-2. **Redis** – Lightweight in-memory database.
-
-I ran the containers using `docker compose up -d` and verified both services with `docker ps`. The NGINX service was accessed in a browser at [http://localhost:8081](http://localhost:8081).
-
-Additionally, I practiced **Git branch workflow**:
-- Created a feature branch `day7-feature`
-- Committed Docker Compose files, HTML page, and proof screenshots
-- Pushed branch to GitHub
-- Created a Pull Request and merged it into `main`
 
 ---
 
