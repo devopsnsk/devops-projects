@@ -69,5 +69,48 @@ sudo apt update
 sudo apt install openjdk-17-jdk -y
 java -version
 
+# Day 9: Jenkins First Job & Build Pipeline
+
+## Objective
+Create a Jenkins job, run a simple build, and verify the build history and console output.
+
+## Steps Performed
+
+1. **Open Jenkins**
+   - URL: `http://localhost:8080`
+   - Login with admin credentials
+
+2. **Create a New Job**
+   - Click **New Item**
+   - Enter **Job Name**: `Day9-demo-job`
+   - Select **Freestyle project** → Click **OK**
+
+3. **Configure Job**
+   - Add a description: `First Jenkins job for Day 9 practice`
+   - Scroll to **Build** → Click **Add build step** → **Execute shell**
+   - Enter the following shell commands:
+     ```bash
+     echo "Hello from Day 9 Jenkins job! 🚀"
+     date
+     ```
+
+4. **Save & Build**
+   - Click **Save**
+   - Click **Build Now** → Job will start running
+
+5. **Verify Build**
+   - Click **#1** under **Build History**
+   - Click **Console Output**
+   - Expected output:
+     ```
+     Hello from Day 9 Jenkins job! 🚀
+     Wed Oct 08 10:30:00 IST 2025
+     ```
+
+## Proof of Completion
+- Screenshot saved as: `screenshot_day9.png`
+- Jenkins job console output verified
+- Build history shows successful run
+
 
 
