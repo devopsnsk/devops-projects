@@ -112,5 +112,50 @@ Create a Jenkins job, run a simple build, and verify the build history and conso
 - Jenkins job console output verified
 - Build history shows successful run
 
+# 🚀 Day 10 – Jenkins Pipeline Project
+
+## 🎯 Objective
+Learned how to create and run a **Jenkins Pipeline job** using a GitHub repository as the SCM (Source Code Management).
+
+---
+
+## 🧩 Steps Performed
+
+1. **Created Jenkins Pipeline Job**
+   - Opened Jenkins dashboard → New Item → Selected **Pipeline** → Named it `Day10-Pipeline`.
+   
+2. **Configured Pipeline Script from SCM**
+   - Selected: **Pipeline script from SCM**
+   - SCM: **Git**
+   - Repository URL: `https://github.com/devopsnsk/devops-projects`
+   - Branch: `main`
+   - Script Path: `Jenkinsfile`
+
+3. **Created Jenkinsfile in Repo**
+   - Added pipeline stages:
+     - Clone repository  
+     - Build stage  
+     - Test stage  
+     - Deploy stage  
+
+4. **Triggered Job**
+   - Job fetched code from GitHub and executed stages successfully.
+
+---
+
+## 🧠 Learning
+- Understood **Jenkinsfile structure** (stages, steps, agents).
+- Learned how **SCM integration** works between Jenkins and GitHub.
+- Practiced troubleshooting “Jenkinsfile not found” errors.
+
+---
+
+## 📸 Screenshot Proof
+![Day 10 Screenshot](./screenshot_day10.png)
+
+---
+
+## ✅ Outcome
+Successfully created and executed a Jenkins Pipeline job using a GitHub repository.
 
 
