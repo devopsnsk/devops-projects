@@ -153,6 +153,25 @@ Learned how to create and run a **Jenkins Pipeline job** using a GitHub reposito
 ## 📸 Screenshot Proof
 ![Day 10 Screenshot](./screenshot_day10.png)
 
+
+Day 11 – Jenkins + GitHub Webhook Integration
+🎯 Goal
+Integrate Jenkins with GitHub so that every commit automatically triggers a Jenkins build.
+
+🧠 Concepts Learned
+Webhook setup in GitHub
+Jenkins Git integration
+Automatic build trigger (CI)
+Jenkins log verification
+⚙️ Steps Followed
+Created Jenkins pipeline job linked with GitHub repo.
+Generated GitHub personal access token (PAT).
+Configured credentials in Jenkins.
+Set up webhook in GitHub → Settings → Webhooks → Add webhook.
+Payload URL: http://<your-public-jenkins-URL>/github-webhook/
+Content type: application/json
+Tested automatic build trigger by pushing a new commit.
+Verified Jenkins build started automatically.
 ---
 
 ## ✅ Outcome
